@@ -11,8 +11,11 @@ Think you're a genius when it comes to iterator methods? Test your knowledge of 
 </ul>
 
 <h3>Set-Up</h3>
-- Fork the repository found here: https://github.com/RyanBaer42/flashcards
-- Clone down your new, forked repo. While cloning, name it what you want your repository to be named, and run git clone.
-- cd into the repository
-- run `node index.js`
-- get to testing!
+<ul>
+  <li>Fork the repository found here: https://github.com/RyanBaer42/flashcards</li>
+  <li>Clone down your new, forked repo. While cloning, name it what you want your repository to be named, and run git clone.</li>
+  <li>cd into the repository</li>
+  <li>run `node index.js`</li>
+  <li>get to testing!</li>
+</ul>
+
