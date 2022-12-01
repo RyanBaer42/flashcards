@@ -63,13 +63,6 @@ describe('Round', function(){
     
         expect(round.calculatePercentCorrect()).to.equal('66.67%')
     })
-    it('should reset the turn count if theres more turns than cards', function() {
-        round.takeTurn('array')
-        round.takeTurn('array')
-        expect(round.turnCount).to.equal(2)
-        round.takeTurn('array')
-        expect(round.turnCount).to.equal(0)
-    })
     it("should tell the user 'Round over! You answered x% of the questions correctly!'", function() {
         round.takeTurn('array')
         round.takeTurn('gallbladder')

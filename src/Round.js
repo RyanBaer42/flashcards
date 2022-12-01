@@ -13,9 +13,6 @@ class Round {
       this.incorrectGuesses.push(this.returnCurrentCard().id)
     }
     this.turnCount ++
-    if (this.turnCount === this.deck.cards.length){
-        this.turnCount = 0
-    }
     return newTurn.giveFeedback()
   }
   returnCurrentCard() {
